@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+#navbar{
+    height: 30px;
+    background-color: #0f1111;
+
+}
+button{
+    background-color: #f08804;
+   
+}
+#logo{
+   
+    color: #f08804;
+    font-size: 25px;
+}
+a {
+     margin-right:200px;
+
+     text-decoration: none;
+}
+/* #flipkart{ 
+    height: 30px;
+    background-color: blue;
+}
+button{
+    color: white;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    margin-right: 200px;
+}
+#flip{
+    font-size: 25px;
+} */

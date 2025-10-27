@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.table-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table-container h2 {
+  text-align: center;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #111;
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-table, .product-table thead, .product-table tbody, .product-table th, .product-table td, .product-table tr {
+    display: block;
+  }
+  .product-table th {
+    background-color: transparent;
+    color: #111;
+    font-size: 18px;
+  }
+  .product-table td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+  }
+  .product-table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: calc(50% - 30px);
+    white-space: nowrap;
+    font-weight: bold;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="table-container">
+  <h2>Pricing List Mobiles</h2>
+  <table class="product-table">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Brand">Apple</td>
+        <td data-label="Product">Iphone X</td>
+        <td data-label="Price">78k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Apple</td>
+        <td data-label="Product">Iphone 14/14 PRO</td>
+        <td data-label="Price">90k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Apple</td>
+        <td data-label="Product">Iphone 16/16 PRO</td>
+        <td data-label="Price">1 lakh</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">OnePlus</td>
+        <td data-label="Product">12 SE</td>
+        <td data-label="Price">20k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">OnePlus</td>
+        <td data-label="Product">Nord</td>
+        <td data-label="Price">23k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">OnePlus</td>
+        <td data-label="Product">Nord S</td>
+        <td data-label="Price">29k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Lava</td>
+        <td data-label="Product">Lava 1</td>
+        <td data-label="Price">15k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Lava</td>
+        <td data-label="Product">Lava 2</td>
+        <td data-label="Price">17k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Lava</td>
+        <td data-label="Product">Lava 3</td>
+        <td data-label="Price">10k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">MotoRola</td>
+        <td data-label="Product">Moto 8</td>
+        <td data-label="Price">55k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">MotoRola</td>
+        <td data-label="Product">Moto 6</td>
+        <td data-label="Price">65k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">MotoRola</td>
+        <td data-label="Product">Moto 2</td>
+        <td data-label="Price">40k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Nokia</td>
+        <td data-label="Product">Nokia 5</td>
+        <td data-label="Price">12k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Nokia</td>
+        <td data-label="Product">Nokia 7</td>
+        <td data-label="Price">17k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Nokia</td>
+        <td data-label="Product">Nokia 8</td>
+        <td data-label="Price">45k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Mi</td>
+        <td data-label="Product">Mi edge 8</td>
+        <td data-label="Price">35k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Mi</td>
+        <td data-label="Product">Mi 2</td>
+        <td data-label="Price">45k</td>
+      </tr>
+      <tr>
+        <td data-label="Brand">Mi</td>
+        <td data-label="Product">Mi 8</td>
+        <td data-label="Price">20k</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

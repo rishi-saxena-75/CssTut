@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center"> Pricing List Mobiles</h2>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Apple</li>
+    <li class="grey">Iphone X - 78k</li>
+    <li>Iphone 14/14 PRO - 90k</li>
+    <li>Iphone 16/16 PRO - 1 lakh</li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">OnePlus</li>
+    <li class="grey">12 SE - 20k</li>
+    <li>Nord  - 23k</li>
+    <li>Nord S - 29k</li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Lava</li>
+    <li class="grey">Lava 1 -15k</li>
+    <li>Lava 2 - 17k </li>
+    <li>Lava 3 - 10k</li>
+  
+  </ul>
+</div>
+<div class="columns">
+    <ul class="price">
+      <li class="header">MotoRola</li>
+      <li class="grey">Moto 8 - 55k</li>
+      <li>Moto 6 - 65k</li>
+      <li>Moto 2 - 40k</li>
+    
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Nokia</li>
+      <li class="grey">Nokia 5 - 12k</li>
+      <li>Nokia 7 - 17k</li>
+      <li>Nokia 8 - 45k</li>
+    
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Mi</li>
+      <li class="grey">Mi edge 8 - 35k</li>
+      <li>Mi 2 - 45k</li>
+      <li>Mi 8 - 20k</li>
+    
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.text-center{
+    text-align: center;
+}
+.bg{
+    background-color: blueviolet;
+    
+}
+.mxauto{
+    margin:auto;
+}
+.m-w-20{
+    max-width: 30vw;
+}

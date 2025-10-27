@@ -1,0 +1,41 @@
+ <div class="progress-bar">
+                            <div class="progress"></div>
+
+
+ <script>
+        function animateProgressBar(progressBar, duration){
+            let progress = 0;
+            const increment = (1 / duration) * 100;
+            
+            const interval = setInterval(() => {
+                progress += increment;
+                
+                // Use backticks for string interpolation
+                progressBar.style.width = `${progress}%`;
+    
+                if(progress >= 30){
+                    clearInterval(interval);
+                }
+            
+            }, 10);
+        }
+    
+        const progressBar = document.querySelector(".progress");
+        animateProgressBar(progressBar, 300);
+    </script>
+
+
+.progress-bar{
+    width: 100%;
+    height: 15px;
+    border-radius: 10rem;
+    background-color: #f0f1f2;
+}
+.progress{
+    height: 100%;
+    border-radius: 10rem;
+    background-color: #4951f5;
+    width: 0;
+    transition: width 0.5s ease;
+}
+

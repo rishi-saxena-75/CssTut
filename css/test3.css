@@ -1,0 +1,41 @@
+*{
+    background-color: antiquewhite;
+}
+
+#mydiv{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#rect{
+    height: 300px;
+    width: 100px;
+    background-color: white;
+    align-content: center;
+    padding: 50px;
+    margin: 20px;
+    
+   
+}
+#cir1{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+#cir2{
+     margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#cir3{
+     
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}

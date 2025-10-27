@@ -1,0 +1,244 @@
+body{
+background-color: aliceblue;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #50d8af;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: #51d8af;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+background: black;
+  font-size: 14px;
+  padding: 0;
+  height: 40px;
+}
+#topbar .contact-info i {
+  font-style: normal;
+  color: white;
+}
+#topbar .contact-info i a, #topbar .contact-info i span {
+  padding-left: 5px;
+  color:white;
+}
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+}
+#topbar .contact-info i a:hover {
+  color: red;
+}
+#topbar .social-links a {
+  color: white;
+  padding: 0 15px;
+  display: inline-block;
+  line-height: 1px;
+  border-left: 1px solid #e9e9e9;
+}
+#topbar .social-links a:hover {
+  color: #50d8af;
+}
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+.umang img{
+	border-radius:11px;
+	padding:5px;
+	width:100%;
+	height:100px;
+	background: linear-gradient(0deg, rgba(0,73,54,1) 0%, rgba(0,0,0,1) 88%); box-shadow: 0px 2px 12px rgba(0, 20, 0, 0.60);
+
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;  
+  height: 60vh;
+  position: relative;
+background-image:url("../../../../../external.html?link=https://drive.google.com/uc?id=1oVcgcynyKFBwklmW-E-1XYRKlGu1kw2a");
+    background-size: cover;
+	background-position:center;
+  opacity: 1;	border-radius:1px;
+
+}
+#hero .hero-content {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#hero .hero-content h2 {
+  color: white;
+  
+  margin-bottom: 30px;
+  font-size: 64px;
+  font-weight: 700;
+}
+#hero .hero-content h2 span {
+  color: #50d8af;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  #hero .hero-content h2 {
+    font-size: 34px;
+  }
+}
+#hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
+#hero .hero-content .btn-get-started {
+background: rgb(14, 12, 13);
+background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(120,25,227,1) 93%);      box-shadow: 0px 2px 12px rgba(10, 20, 10, 0.40);
+  border-radius:2px;
+
+}
+#hero .hero-content .btn-get-started:hover {
+background:rgb(13, 13, 15);
+  border-radius:2px;
+
+  color: white;
+}
+#hero .hero-content .btn-projects {
+  background: #000000;
+  border: 2px solid #50d8af;
+}
+#hero .hero-content .btn-projects:hover {
+  background: none;
+  color: #000000;
+}
+#hero .hero-slider {
+  z-index: 8;
+  height: 60vh;
+}
+#hero .hero-slider::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 7;
+}
+#hero .hero-slider .swiper-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-property: opacity;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+	 background-image:url("body.html");
+    background-size: cover;
+	background-position:center;
+	
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+/* Sections Header
+--------------------------------*/
+.section-header {
+  margin-bottom: 30px;
+}
+.section-header h2 {
+  font-size: 32px;
+  color:black;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 20px;
+}
+.section-header h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+background: linear-gradient(0deg, rgba(186,80,98,1) 0%, rgba(120,25,227,1) 93%);  border-bottom: 1px solid #eee;
+  bottom: 0;
+  left: 0;
+}
+.section-header p {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Services Section
+--------------------------------*/
+#services {
+  padding: 40px 0;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+background: rgb(0, 0, 0);
+background: linear-gradient(0deg, rgb(6, 7, 7) 0%, rgba(0,0,0,1) 88%);  padding: 0 0 30px 0;
+  font-size: 14px;
+}
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+#footer .credits {
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+}
+#footer .credits a {
+  color: white
+  ;
+  font-weight:bold;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color:antiquewhite;
+}
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    
+
+}
+li{
+    list-style-type: none;
+    /* background-color: white; */
+}
+/* .outer{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.inner{
+    height:100px;
+    width: 100px;
+    background-color: blue;
+    
+} */
+ /* //for both the container  */
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    background-color: burlywood;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

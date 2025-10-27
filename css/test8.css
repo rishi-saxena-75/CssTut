@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+   border-radius: 50%;
+    
+    border: 5px solid #bced0c;
+    border-top: 5px solid hsl(176, 56%, 55%);
+    animation: spin 2s ease-in-out 0s infinite normal;
+    
+    
+    /* border: 5px solid black; */
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

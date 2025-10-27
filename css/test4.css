@@ -1,0 +1,47 @@
+
+#nav{
+    size: 25px;
+    background-color: #0f1111;
+    
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+
+}
+a{
+    text-decoration: none;
+    margin-right: 200px;
+
+    color: antiquewhite;
+}
+button{
+    background-color: #f08804;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+}
+#content{
+    height: 500px;
+}
+
+#box1{
+    background-color: rgba(255,0,0,1);
+}
+#box2{
+    background-color: rgba(255,0,0,0.75);
+}
+#box3{
+    background-color: rgba(255,0,0,0.5);
+}
+footer{
+    background: black;
+    color: whitesmoke;
+    block-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+/* index2.html code  */
+*{
+    background-color: greenyellow;
+}
+
+
+
+  /* index.html code and test1.html code */
+/* #box{
+    background-color: blue;
+}
+.heading{
+    color: red; */
+    /* or
+    using 
+    h1 , h2 ,h3{
+    background-color:red;
+    } */
+/* }
+.btn1{
+    background-color: green;
+    
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+h1{
+    color: red;
+}
+button{
+    color: white;
+    background-color: red;
+    
+}   */
+
+/* color property 
+foreground
+color: red;
+color: pink ; 
+
+
+background-color:red;
+background-color:green;
+
+body{
+background-color:red;
+
+
+
+color system
+1.rgb
+color:rgb(255, 0 ,0); red   // red,green,blue range from (0 to 255)
+color: rgb(0,255,0); green
+color: rgb(0,0,255); blue 
+yellow color:rgb(255,255,0) 
+
+2.hex (hexadecimal) 0-9 , a ,b, c ,d ,e ,f (16)  --range from   r   ,   g   ,   b
+                                                              0- 255   0-255  0-255
+                                                                00-ff  00-ff   00-ff
+
+                                                                ff  00  00(red)
+                                                                00  ff  00(green)
+                                                                00  00  ff(blue)
+                                                                ff  ff  00(yellow)
+                                                                R   G   B
+//coolors for colors
+
+color:#ff0000; red
+color:#00ff00; green
+}
+*/
